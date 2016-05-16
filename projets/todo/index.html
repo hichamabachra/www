@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=fr class="">
+<head>
+	<meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<link rel="stylesheet/less" type="text/css" href="style.less" />-->
+     <link rel="stylesheet" href="style.min.css" />
+   <link rel="stylesheet" type="text/css" href="../../common/css/common_style.css">
+	<title>Todo</title>
+    <script src="../../common/js/favicons.js"></script>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"</script>-->
+</head>
+
+<body>
+<div class="titre"><h1>Todo</h1></div>
+<div id="lien">
+    <a href="../../index.html">Retour a l'accueil</a>
+    <div id="skin">
+        <span style="color:red">Skin:</span>
+        <select id="selectSkin">
+            <option value="" selected>Red on Black</option>
+            <option value="blue-on-orange" >Blue on Orange</option>
+            <option value="Lime-on-azure" >Lime on azure</option>
+        </select>
+     </div>
+</div>
+<div class="container" >
+    <header>
+        <span class="hide-on-small-screen">Todo</span>
+        <input type="text"
+           id= "input"
+           placeholder="Entrez ici ..."
+           autofocus>
+    </header>
+    <div id="todolist"></div>
+    <div id="donelist"></div>
+</div>
+   <template>
+       <article>
+            <input type='checkbox' class='checkbox' name='checkbox'>
+            <div class='text' tabindex='0' contenteditable></div>
+            <img src='delete.png' alt='delete' tabindex='0'>
+        </article>
+    </template> 
+     <script src="./script.js"></script>
+</body>
+</html>

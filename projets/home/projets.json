@@ -1,0 +1,52 @@
+{
+    "projets": [
+        {
+            "nom": "GitHub",
+            "dir": "../GitHub/index.html",
+            "description": "Mon projet de site web publié sur GitHub."
+        },
+        {
+            "nom": "Langues",
+            "dir": "../langues/index.html",
+            "description": "Pratique de l'utilisation des sélecteurs et de la mise en page avec CSS3.",
+            "sujets": [
+                "CSS3",
+                "HTML5",
+                "Sélecteurs"
+            ]
+        },
+        {
+            "nom": "Pens",
+            "dir": "../pens/index.html",
+            "description": "Exercices que j'ai faits surCodePen."
+        },
+        {
+            "nom": "YouTube",
+            "dir": "../youtube/index.html"
+        },
+        {
+            "nom": "TutorielJS",
+            "dir": "../tutorielJS/index.html"
+        },
+        {
+            "nom": "Todo",
+            "dir": "../todo/index.html",
+            "description": "Pratique intéressente."
+        },
+        {
+            "nom": "Todo(<span style='color:red'>Classique</span>)",
+            "dir": "../todo/index.html?skin=",
+            "description": "Pratique intéressente."
+        },
+        {
+            "nom": "Todo(<span style='color:Azure'>Azure</span>)",
+            "dir": "../todo/index.html?skin=Lime-on-azure",
+            "description": "Pratique intéressente."
+        },
+        {
+            "nom": "Todo(<span style='color:Orange'>Orange</span>)",
+            "dir": "../todo/index.html?skin=blue-on-orange",
+            "description": "Pratique intéressente."
+        }
+    ]
+}

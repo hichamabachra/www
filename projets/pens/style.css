@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body
+{
+height:40%;
+width:60%;
+background: black;
+margin: 20px auto;
+}
+
+#lien {
+padding: 10px 10px 10px 10px;
+border-radius: 0px 0px 0px 10px;
+text-align: center;
+background: grey;
+position: fixed;
+top: 0;
+right: 0;
+width:115px; 
+}
+
+#flex{
+display: flex;
+flex-wrap: wrap;
+padding: 4%;
+border-radius: 40px;
+margin:marge-auto;
+//max-width:650px;
+width:100%;
+min-width:416px;
+background: orange; 
+}
+.code{
+min-width:400px;
+flex:1;
+padding: 2%;
+}
+.titre1{
+font-family: Arial, sans-serif;
+text-transform: uppercase;
+color: cyan;
+font-size: 2.5em;
+text-align: left;
+}
+
+#p1{
+font-family: Arial, sans-serif;
+color: yellow;
+font-size: 1.1em;
+}

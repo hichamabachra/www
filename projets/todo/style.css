@@ -1,0 +1,441 @@
+:root {
+  @import url(https://fonts.googleapis.com/css?family=Pacifico);
+  /*@main-color:blue;
+@background-color:#FFaa00;
+@highlight-color:black;
+@flash-color:red;*/
+}
+:root body {
+  background: black;
+}
+:root h1 {
+  color: red;
+  font-family: Pacifico;
+  font-size: 3em;
+  transition: 1s;
+}
+:root .container {
+  color: white;
+  border: 3px solid, red;
+  border-radius: 40px;
+  padding: 20px ;
+  font-family: sans-serif;
+}
+:root .container header {
+  display: flex;
+  align-items: center;
+}
+:root #lien {
+  transition: 1s;
+}
+:root #input {
+  background: red;
+  box-shadow: 0px 0px 5px 5px red;
+  border-radius: 40px;
+  padding: 5px ;
+  margin: 10px;
+  flex: 1;
+  min-width: 1px;
+  color: black;
+  border: transparent;
+  font-weight: bold;
+}
+@media (max-width: 360px) {
+  :root .hide-on-small-screen {
+    display: none;
+  }
+}
+@media (max-height: 480px) {
+  :root .titre {
+    font-size: 0;
+  }
+  :root #lien a {
+    font-size: 0;
+  }
+}
+:root img {
+  width: 20px;
+  height: 20px;
+}
+:root article {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+:root .text {
+  width: 100%;
+  margin-bottom: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+:root .hide-on-small-screen {
+  color: red;
+}
+:root div .text:focus {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+:root input:hover,
+:root img:hover,
+:root input:focus,
+:root img:focus {
+  box-shadow: 0px 0px 10px 3px white;
+}
+:root div.text:hover {
+  background-color: grey;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-left: 8px solid white;
+  border-right: 8px solid white;
+}
+:root #donelist article {
+  color: red;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+:root #donelist article .text {
+  color: grey;
+}
+:root #donelist article .text:hover {
+  color: white;
+}
+:root .checkbox {
+  flex: none;
+}
+:root #todolist:empty::after {
+  content: "Veuillez entrer une nouvelle tâche à faire SVP!";
+  color: lime;
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+}
+:root button {
+  width: 100%;
+  height: 80px;
+  color: red;
+  font-size: 1em;
+  border: solid aqua 2px;
+  background-color: black;
+  padding: 5px;
+}
+:root button:disabled {
+  display: none;
+}
+:root button:focus,
+:root button:hover {
+  text-shadow: 0px 3px 4px red;
+  cursor: pointer;
+}
+:root .buttonPane {
+  opacity: 0.4;
+  display: flex;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: 1s;
+}
+:root .buttonPane:hover,
+:root .buttonPane:focus {
+  opacity: 1;
+}
+:root #skin {
+  display: flex;
+}
+:root.blue-on-orange {
+  @import url(https://fonts.googleapis.com/css?family=Pacifico);
+  /*@main-color:blue;
+@background-color:#FFaa00;
+@highlight-color:black;
+@flash-color:red;*/
+}
+:root.blue-on-orange body {
+  background: #FFaa00;
+}
+:root.blue-on-orange h1 {
+  color: blue;
+  font-family: Pacifico;
+  font-size: 3em;
+  transition: 1s;
+}
+:root.blue-on-orange .container {
+  color: black;
+  border: 3px solid, blue;
+  border-radius: 40px;
+  padding: 20px ;
+  font-family: sans-serif;
+}
+:root.blue-on-orange .container header {
+  display: flex;
+  align-items: center;
+}
+:root.blue-on-orange #lien {
+  transition: 1s;
+}
+:root.blue-on-orange #input {
+  background: blue;
+  box-shadow: 0px 0px 5px 5px blue;
+  border-radius: 40px;
+  padding: 5px ;
+  margin: 10px;
+  flex: 1;
+  min-width: 1px;
+  color: #FFaa00;
+  border: transparent;
+  font-weight: bold;
+}
+@media (max-width: 360px) {
+  :root.blue-on-orange .hide-on-small-screen {
+    display: none;
+  }
+}
+@media (max-height: 480px) {
+  :root.blue-on-orange .titre {
+    font-size: 0;
+  }
+  :root.blue-on-orange #lien a {
+    font-size: 0;
+  }
+}
+:root.blue-on-orange img {
+  width: 20px;
+  height: 20px;
+}
+:root.blue-on-orange article {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+:root.blue-on-orange .text {
+  width: 100%;
+  margin-bottom: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+:root.blue-on-orange .hide-on-small-screen {
+  color: blue;
+}
+:root.blue-on-orange div .text:focus {
+  background-color: black;
+  color: #FFaa00;
+  border-radius: 5px;
+}
+:root.blue-on-orange input:hover,
+:root.blue-on-orange img:hover,
+:root.blue-on-orange input:focus,
+:root.blue-on-orange img:focus {
+  box-shadow: 0px 0px 10px 3px black;
+}
+:root.blue-on-orange div.text:hover {
+  background-color: grey;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-left: 8px solid black;
+  border-right: 8px solid black;
+}
+:root.blue-on-orange #donelist article {
+  color: blue;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+:root.blue-on-orange #donelist article .text {
+  color: grey;
+}
+:root.blue-on-orange #donelist article .text:hover {
+  color: white;
+}
+:root.blue-on-orange .checkbox {
+  flex: none;
+}
+:root.blue-on-orange #todolist:empty::after {
+  content: "Veuillez entrer une nouvelle tâche à faire SVP!";
+  color: red;
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+}
+:root.blue-on-orange button {
+  width: 100%;
+  height: 80px;
+  color: blue;
+  font-size: 1em;
+  border: solid aqua 2px;
+  background-color: #FFaa00;
+  padding: 5px;
+}
+:root.blue-on-orange button:disabled {
+  display: none;
+}
+:root.blue-on-orange button:focus,
+:root.blue-on-orange button:hover {
+  text-shadow: 0px 3px 4px blue;
+  cursor: pointer;
+}
+:root.blue-on-orange .buttonPane {
+  opacity: 0.4;
+  display: flex;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: 1s;
+}
+:root.blue-on-orange .buttonPane:hover,
+:root.blue-on-orange .buttonPane:focus {
+  opacity: 1;
+}
+:root.blue-on-orange #skin {
+  display: flex;
+}
+:root.Lime-on-azure {
+  @import url(https://fonts.googleapis.com/css?family=Pacifico);
+  /*@main-color:blue;
+@background-color:#FFaa00;
+@highlight-color:black;
+@flash-color:red;*/
+}
+:root.Lime-on-azure body {
+  background: azure;
+}
+:root.Lime-on-azure h1 {
+  color: lime;
+  font-family: Pacifico;
+  font-size: 3em;
+  transition: 1s;
+}
+:root.Lime-on-azure .container {
+  color: pink;
+  border: 3px solid, lime;
+  border-radius: 40px;
+  padding: 20px ;
+  font-family: sans-serif;
+}
+:root.Lime-on-azure .container header {
+  display: flex;
+  align-items: center;
+}
+:root.Lime-on-azure #lien {
+  transition: 1s;
+}
+:root.Lime-on-azure #input {
+  background: lime;
+  box-shadow: 0px 0px 5px 5px lime;
+  border-radius: 40px;
+  padding: 5px ;
+  margin: 10px;
+  flex: 1;
+  min-width: 1px;
+  color: azure;
+  border: transparent;
+  font-weight: bold;
+}
+@media (max-width: 360px) {
+  :root.Lime-on-azure .hide-on-small-screen {
+    display: none;
+  }
+}
+@media (max-height: 480px) {
+  :root.Lime-on-azure .titre {
+    font-size: 0;
+  }
+  :root.Lime-on-azure #lien a {
+    font-size: 0;
+  }
+}
+:root.Lime-on-azure img {
+  width: 20px;
+  height: 20px;
+}
+:root.Lime-on-azure article {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+}
+:root.Lime-on-azure .text {
+  width: 100%;
+  margin-bottom: 4px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+:root.Lime-on-azure .hide-on-small-screen {
+  color: lime;
+}
+:root.Lime-on-azure div .text:focus {
+  background-color: pink;
+  color: azure;
+  border-radius: 5px;
+}
+:root.Lime-on-azure input:hover,
+:root.Lime-on-azure img:hover,
+:root.Lime-on-azure input:focus,
+:root.Lime-on-azure img:focus {
+  box-shadow: 0px 0px 10px 3px pink;
+}
+:root.Lime-on-azure div.text:hover {
+  background-color: grey;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-left: 8px solid pink;
+  border-right: 8px solid pink;
+}
+:root.Lime-on-azure #donelist article {
+  color: lime;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+:root.Lime-on-azure #donelist article .text {
+  color: grey;
+}
+:root.Lime-on-azure #donelist article .text:hover {
+  color: white;
+}
+:root.Lime-on-azure .checkbox {
+  flex: none;
+}
+:root.Lime-on-azure #todolist:empty::after {
+  content: "Veuillez entrer une nouvelle tâche à faire SVP!";
+  color: blue;
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+}
+:root.Lime-on-azure button {
+  width: 100%;
+  height: 80px;
+  color: lime;
+  font-size: 1em;
+  border: solid aqua 2px;
+  background-color: azure;
+  padding: 5px;
+}
+:root.Lime-on-azure button:disabled {
+  display: none;
+}
+:root.Lime-on-azure button:focus,
+:root.Lime-on-azure button:hover {
+  text-shadow: 0px 3px 4px lime;
+  cursor: pointer;
+}
+:root.Lime-on-azure .buttonPane {
+  opacity: 0.4;
+  display: flex;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  transition: 1s;
+}
+:root.Lime-on-azure .buttonPane:hover,
+:root.Lime-on-azure .buttonPane:focus {
+  opacity: 1;
+}
+:root.Lime-on-azure #skin {
+  display: flex;
+}
