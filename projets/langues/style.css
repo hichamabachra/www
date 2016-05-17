@@ -3,7 +3,7 @@ background: black;
 }
 
 
-h{
+span{
 	color:yellow;
     font-size:3em;
     font-family:sans-serif;
@@ -14,7 +14,7 @@ border-style:ridge;
 border-radius: 15px;
 border-color:black;
 border-width: 4px;
-
+width:100%;
 }
 
 a{
