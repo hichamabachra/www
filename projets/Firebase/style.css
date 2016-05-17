@@ -1,0 +1,32 @@
+body{ 
+background: black;
+}
+
+
+span{
+	color:yellow;
+    font-size:3em;
+    font-family:sans-serif;
+}
+
+.iframe{ 
+border-style:ridge;
+border-radius: 15px;
+border-color:black;
+border-width: 4px;
+width:100%;
+}
+
+a{
+    color: green;
+	font-size: 16px;	
+}
+#buttons{
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+button:hover{
+    cursor: pointer;
+    background-color: deepskyblue;
+}

@@ -1,6 +1,11 @@
 {
     "projets": [
         {
+            "nom": "Firebase Chat",
+            "dir": "../Firebase/index.html",
+            "description": "Mon application chat."
+        },
+        {
             "nom": "GitHub",
             "dir": "../GitHub/index.html",
             "description": "Mon projet de site web publié sur GitHub."
